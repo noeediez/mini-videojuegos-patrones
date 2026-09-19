@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "test:coverage": "jest --coverage",
-    "build": "tsc"
+  "test": "jest",
+  "test:coverage": "jest --coverage",
+  "build": "tsc",
+  "start": "node dist/src/main.js"
   },
   "repository": {
     "type": "git",
