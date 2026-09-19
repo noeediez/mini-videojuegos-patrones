@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "test": "jest",
-  "build": "tsc"
+    "test": "jest",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -22,9 +22,13 @@
   "devDependencies": {
     "@types/jest": "^30.0.0",
     "@types/node": "^26.6.2",
+    "@types/readline-sync": "^1.4.8",
     "jest": "^30.5.2",
     "ts-jest": "^29.4.12",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
   }
 }
