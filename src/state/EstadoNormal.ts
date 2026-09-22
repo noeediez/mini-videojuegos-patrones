@@ -5,7 +5,7 @@ export class EstadoNormal implements Estado {
     return 'NORMAL';
   }
 
-  puedeAtacar(): boolean {
+  puedeAtacar(): boolean { // cada estado  sabe por sI mismo si permite atacar o no.
     return true;
   }
 }

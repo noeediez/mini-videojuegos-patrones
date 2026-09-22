@@ -5,8 +5,8 @@ import { AtaqueEspada } from './strategy/AtaqueEspada';
 import { AtaqueMagico } from './strategy/AtaqueMagico';
 import { AtaqueArco } from './strategy/AtaqueArco';
 
-const jugador = PersonajeFactory.crear('GUERRERO', 'Thor');
-const enemigo = PersonajeFactory.crear('MAGO', 'Gandalf');
+const jugador = PersonajeFactory.crear('GUERRERO', 'Charli'); //aca se ve el patron factory method, el main.ts no sabe como se crean los personajes, solo pide un tipo 
+const enemigo = PersonajeFactory.crear('MAGO', 'Zeldris'); //cada vez que elusuario crea un personaje solo llama a factory en vez de hacer un new directo
 
 let jugando = true;
 
